@@ -32,11 +32,11 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 <div style="display: inline-block">
 	<figure>
 		<div style="display: block; position: absolute; z-index: 2; pointer-events: none;">
-			<img style="width: 210px;" src="../Images/iFoodSearchiOS/iPhone 14 Pro - Space Black - Portrait.png" alt="iPhone Pic1" />
+			<img style="width: 210px;" src="images/pics/iPhone 14 Pro - Space Black - Portrait.png" alt="iPhone Pic1" />
 		</div>
 		<div style="display: inline-block; position: relative; z-index: 1;">
-			<video style="margin: 12px; width: 186px; border-radius: 15px;" class="iphonevideo" controls poster="../Images/iFoodSearchiOS/Food_Info_Details_Potatoes_ABS_copyright_FBotLogic_Solutions_Inc.png" muted preload="auto">
-				<source src="../Videos/01a iFoodSearch potato food info.mp4" type="video/mp4">
+			<video style="margin: 12px; width: 186px; border-radius: 15px;" class="iphonevideo" controls poster="images/pics/Food_Info_Details_Potatoes_ABS_copyright_FBotLogic_Solutions_Inc.png" muted preload="auto">
+				<source src="videos/01a iFoodSearch potato food info.mp4" type="video/mp4">
 				<!-- For non-HTML5 browsers: -->
 				Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a> 
 				to download the Firefox browser for your operating system.
@@ -48,11 +48,11 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 <div style="display: inline-block">
 	<figure>
 		<div style="display: block; position: absolute; z-index: 2; pointer-events: none;">
-			<img style="width: 210px;" src="../Images/iFoodSearchiOS/iPhone 14 Pro - Space Black - Portrait.png" alt="iPhone Pic1" />
+			<img style="width: 210px;" src="images/pics/iPhone 14 Pro - Space Black - Portrait.png" alt="iPhone Pic1" />
 		</div>
 		<div style="display: inline-block; position: relative; z-index: 1;">
-			<video style="margin: 12px; width: 186px; border-radius: 15px;" class="iphonevideo" controls poster="../Images/iFoodSearchiOS/iPhone15Pro_Food_Time_Chart_copyright_FBotLogic_Solutions_Inc.png" muted preload="auto">
-				<source src="../Videos/01b iFoodSearch diary chart info.mp4" type="video/mp4">
+			<video style="margin: 12px; width: 186px; border-radius: 15px;" class="iphonevideo" controls poster="images/pics/iPhone15Pro_Food_Time_Chart_copyright_FBotLogic_Solutions_Inc.png" muted preload="auto">
+				<source src="videos/01b iFoodSearch diary chart info.mp4" type="video/mp4">
 				<!-- For non-HTML5 browsers: -->
 				Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a> 
 				to download the Firefox browser for your operating system.
@@ -60,18 +60,14 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 		</div>
 	</figure>
 </div>
-
-
-
 <br></br>
+
 # A Full Featured iOS Nutrient Tracker App...
 iFoodSearch started as a simple food and recipe search App for finding nutrient information. I extended the <a href="https://github.com/NicholasBellucci/FatSecretSwift">FatSecret Swift API</a> by Nicolas Bellucci, that only searched for food-specific data, to include recipe searches. You can find it <a href="https://github.com/FrankBot1000/FatSecretSwift">here</a>.
 
 Yet, nothing is simple, if motivated enough... iFoodSearch now also calculates food diary totals, syncs with Apple's Health App, and shows nutrient details in multiple chart types. And, it's highly customizable.
 
 There have been many "show-stoppers" (i.e. challenges) if not for stubborn persistence. These included integrating HealthKit, adding security features like image validation (I wrote it in Assembly!), implementing Core Data models using Generics, building Custom Charts (for older iOS compatibility), implementing Certificate Pinning, and everyone's pain point, implementing StoreKit (with receipt validation). 
-
-
 <br></br>
 
 ## Below are Some Code Examples:
@@ -280,30 +276,30 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 <table>
 <tr>
 	<td>
-	<img src="../Images/iFoodSearchiOS/ScreenShots/01-1a Search Main Screen Foods Trial Info.png" alt="iFoodSearch search screen" width="180"/>
+	<img src="images/screenshots/01-1a Search Main Screen Foods Trial Info.png" alt="iFoodSearch search screen" width="180"/>
 	</td>
 	<td>
-	<img src="../Images/iFoodSearchiOS/ScreenShots/01-1c Search Main Screen Foods Flipped BackView.png" alt="iFoodSearch search screen showing flipped image" width="180"/>
+	<img src="images/screenshots/01-1c Search Main Screen Foods Flipped BackView.png" alt="iFoodSearch search screen showing flipped image" width="180"/>
 	</td>
 	<td>
-	<img src="../Images/iFoodSearchiOS/ScreenShots/03-6a Food Info Potatoes ABS.png" alt="iFoodSearch Potato Details" width="180"/>
+	<img src="images/screenshots/03-6a Food Info Potatoes ABS.png" alt="iFoodSearch Potato Details" width="180"/>
 	</td>
 	<td>
-	<img src="../Images/iFoodSearchiOS/ScreenShots/03-6b Food Info Potatoes ABS Dark Mode.png" alt="iFoodSearch Potato Details in Dark Mode" width="180"/>
+	<img src="images/screenshots/03-6b Food Info Potatoes ABS Dark Mode.png" alt="iFoodSearch Potato Details in Dark Mode" width="180"/>
 	</td>
 </tr>
 <tr>
 	<td>
-	<img src="../Images/iFoodSearchiOS/ScreenShots/06 Settings Pick Top Watched.png" alt="iFoodSearch Settings Top Watched" width="180"/>
+	<img src="images/screenshots/06 Settings Pick Top Watched.png" alt="iFoodSearch Settings Top Watched" width="180"/>
 	</td>
 	<td>
-	<img src="../Images/iFoodSearchiOS/ScreenShots/07 Settings DRV for Nutrients.png" alt="iFoodSearch Settings Top DRV Values" width="180"/>
+	<img src="images/screenshots/07 Settings DRV for Nutrients.png" alt="iFoodSearch Settings Top DRV Values" width="180"/>
 	</td>
 	<td>
-	<img src="../Images/iFoodSearchiOS/ScreenShots/08 Recipe Details Pumpkin Pie.png" alt="iFoodSearch Recipe Details" width="180"/>
+	<img src="images/screenshots/08 Recipe Details Pumpkin Pie.png" alt="iFoodSearch Recipe Details" width="180"/>
 	</td>
 	<td>
-	<img src="../Images/iFoodSearchiOS/ScreenShots/13 iFoodSearch Settings Bottom Part.png" alt="iFoodSearch Settings Bottom Part" width="180"/>
+	<img src="images/screenshots/13 iFoodSearch Settings Bottom Part.png" alt="iFoodSearch Settings Bottom Part" width="180"/>
 	</td>
 </tr>
 </table>
@@ -317,6 +313,13 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 * Custom-built Charts, using Core Graphics
 <br></br>
 
+#### Testing/Error Handling
+* Unit Testing
+* Empty states
+* Random Generation of Sample Test Data
+* Text input validation
+<br></br>
+
 #### Security
 * Image asset validation, in Assembly
 * Integrated SecuritySuite and OpenSSL APIs
@@ -324,13 +327,6 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 * Certificate Pinning implementation
 * StoreKit receipt validation
 * Username/Password validation
-<br></br>
-
-#### Testing/Error Handling
-* Unit Testing
-* Empty states
-* Random Generation of Sample Test Data
-* Text input validation
 <br></br>
 
 #### Customization
