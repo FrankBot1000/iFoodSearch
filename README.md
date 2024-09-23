@@ -350,5 +350,7 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 * Implement Core Data's CloudKit syncing, to sync with my macOS App iFoodTrack
 * InterOp with SwiftUI, to implement SwiftCharts for newer iOS versions
 * InterOp with SwiftUI, to implement Apple's StoreKitView API, for newer iOS versions
+<br></br>
 
-
+# FeedBack
+<p class="contact-message">If you have any feedback or suggestions you can reach out using this <a class="btn" href="mailto:fbotlogic@fbotlogicsolutions.com?subject=Blue Marble Weather Support">Email</a> link.</p>
