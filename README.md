@@ -38,6 +38,7 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 * Git Version Control
 <br></br>
 
+
 # iFoodSearch Animations
 <div style="display: inline-block">
 	<figure>
@@ -72,6 +73,7 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 </div>
 <br></br>
 
+
 # A Full Featured iOS Nutrient Tracker App...
 iFoodSearch started as a simple food and recipe search App for finding nutrient information. I extended the <a href="https://github.com/NicholasBellucci/FatSecretSwift">FatSecret Swift API</a> by Nicolas Bellucci, that only searched for food-specific data, to include recipe searches. You can find it <a href="https://github.com/FrankBot1000/FatSecretSwift">here</a>.
 
@@ -79,6 +81,7 @@ Yet, nothing is simple, if motivated enough... iFoodSearch now also calculates f
 
 There have been many "show-stoppers" (i.e. challenges) if not for stubborn persistence. These included integrating HealthKit, adding security features like image validation (I wrote it in Assembly!), implementing Core Data models using Generics, building Custom Charts (for older iOS compatibility), implementing Certificate Pinning, and everyone's pain point, implementing StoreKit (with receipt validation). 
 <br></br>
+
 
 ## Below are Some Code Examples:
 ### Testing HealthKit Sample Types:
@@ -122,6 +125,7 @@ There have been many "show-stoppers" (i.e. challenges) if not for stubborn persi
 ```
 <br></br>
 
+
 ### Validating image assets by comparing image bytes to expected bytes, in Assembly!
 ```Assembly
 _checkbyte:
@@ -149,6 +153,7 @@ _checkbyte:
     ret
 ```
 <br></br>
+
 
 ### A test for Pie Chart Views:
 ```swift
@@ -305,36 +310,36 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 #### Code Structure
 * Model-View-Controller Design Pattern
 * Delegates and Protocols
-* Core Data models using generics
+* Core Data Models using Generics
 * Custom-built Charts, using Core Graphics
 <br></br>
 
 #### Testing/Error Handling
 * Unit Testing
-* Empty states
+* Empty States
 * Random Generation of Sample Test Data
-* Text input validation
+* Text Input Validation
 <br></br>
 
 #### Security
-* Image asset validation, in Assembly
+* Image Asset Validation, in Assembly
 * Integrated SecuritySuite and OpenSSL APIs
 * UserDefaults in Keychain
 * Certificate Pinning implementation
-* StoreKit receipt validation
+* StoreKit Receipt Validation
 * Username/Password validation
 <br></br>
 
 #### Customization
 * Light and Dark Mode Selections
-* Theme color selections
-* Nutrient absolute vs percent values
-* Screen start up options
-* Text highlighting options
+* Theme Color Selections
+* Custom Threshold Values
+* Screen Startup Options
+* Text Highlighting Options
 <br></br>
 
 #### Project Organization
-* Code documentation, DocC
+* Code Documentation (DocC)
 * Project group folder organization
 * Privacy Manifest
 * On-Demand Resources
