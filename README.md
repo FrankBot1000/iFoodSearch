@@ -1,7 +1,17 @@
 # iFoodSearch
 iFoodSearch is a feature rich iOS App built using Swift and UIKit. iFoodSearch is organized into five tab view screens: Search, Favorites, Diary, Charts and Settings. 
 
-You can search for food or recipe nutrient data, add food favorites, create a food diary, track diary nutrient data in Charts, and provides many customization features (in Settings). 
+You can search for food or recipe nutrient data, add food favorites, create a food diary, track diary nutrient data in Charts, and provides many customization features (in Settings).
+<br></br>
+
+<h2>Available on the iOS AppStore:</h2>
+<a href="https://apps.apple.com/us/app/ifoodsearch/id6467825358">
+	<img src="images/pics/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on App Store">
+</a>
+<a href="https://www.apple.com/ca/ios/health/">
+	<img src="images/pics/Apple_Health_badge_US-UK_blk_sRGB.svg" alt="Works with Apple Health">
+</a>
+<br></br>
 
 # Technologies Used		
 ## Languages and Frameworks						
@@ -26,8 +36,8 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 
 ## Other
 * Git Version Control
-
 <br></br>
+
 # iFoodSearch Animations
 <div style="display: inline-block">
 	<figure>
@@ -110,9 +120,7 @@ There have been many "show-stoppers" (i.e. challenges) if not for stubborn persi
         XCTAssert(hkSampleTypes.isEmpty == false, "hkSampleTypes IS EMPTY.")
     }
 ```
-<br>
-</br>
-
+<br></br>
 
 ### Validating image assets by comparing image bytes to expected bytes, in Assembly!
 ```Assembly
@@ -140,8 +148,7 @@ _checkbyte:
     ldp lr, fp, [sp], #16
     ret
 ```
-<br>
-</br>
+<br></br>
 
 ### A test for Pie Chart Views:
 ```swift
@@ -171,12 +178,10 @@ func testPieChartView() {
         XCTAssert(chartValuesTotal == segmentsValuesTotal, "Total of chartView values not same as 'segments' value total.")
     }
 ```
-<br>
-</br>
+<br></br>
 
 
 ### A test to confirm that chart bar heights are not negative:
-
 ```swift
 func testDrawGraphDataSegments_barHeightIsNotNegative() {
         // Given
@@ -225,23 +230,16 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
         XCTAssert(minBarValue >= 0, "'barHeight' is not greater than or equal to zero.")
     }
 ```
-<br>
-</br>
+<br></br>
 
 
 ### Testing FatSecretClient network API calls, when searching recipe IDs:
 
 ```swift
-/// Test FatSecretClient network call for searching for recipe ID. Not using certificate pinning.
+/// Test FatSecretClient network call for searching for recipe ID.
     func testFatSecretClient_searchRecipeID() {
         // Given
         let fatSecretClient = FatSecretClient()
-
-#warning("NOTE: Comment out AppDelegate() code, as will cause conflict, when exiting method:")
-//        let appDelegate     = AppDelegate()
-//        _                   = appDelegate.checkImagePNGData()
-        _                   = FBSettingsVC() // Over-writes apikey/secret with correct keys, when calls imageArrayResults().
-        
         var myFspSingleRecipe: FSPSingleRecipe?
         let asyncSingleRecipeSearchExpectation = expectation(description: "asyncSingleRecipeSearchExpectation")
         
@@ -267,10 +265,8 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
         self.wait(for: [asyncSingleRecipeSearchExpectation], timeout: 10)
         XCTAssert(myFspSingleRecipe?.recipe_id == "187769", "FSP Food searched ID was not 187769.")
     }
-    ... ...
 ```
-<br>
-</br>
+<br></br>
 
 # Sample Screen Shots
 <table>
@@ -303,10 +299,10 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 	</td>
 </tr>
 </table>
-
 <br></br>
-### This App required a lot of passion to keep it going... I've implemented the following:
-#### Structure
+
+## This App required a lot of passion to keep it going... I've implemented the following:
+#### Code Structure
 * Model-View-Controller Design Pattern
 * Delegates and Protocols
 * Core Data models using generics
