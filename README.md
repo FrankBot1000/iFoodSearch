@@ -352,5 +352,6 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 * InterOp with SwiftUI, to implement Apple's StoreKitView API, for newer iOS versions
 <br></br>
 
+
 # FeedBack
-<p class="contact-message">If you have any feedback or suggestions you can reach out using this <a class="btn" href="mailto:fbotlogic@fbotlogicsolutions.com?subject=Blue Marble Weather Support">Email</a> link.</p>
+<p class="contact-message">If you have any feedback or suggestions you can reach out via <a class="btn" href="mailto:fbotlogic@fbotlogicsolutions.com?subject=Blue Marble Weather Support">Email</a>.</p>
