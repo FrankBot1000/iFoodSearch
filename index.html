@@ -1,6 +1,7 @@
 <h1>iFoodSearch</h1>
 <p>iFoodSearch is a feature rich iOS App built using Swift and UIKit. iFoodSearch is organized into five tab view screens: Search, Favorites, Diary, Charts and Settings.</p>
-<p>You can search for food or recipe nutrient data, add food favorites, create a food diary, track diary nutrient data in Charts, and provides many customization features (in Settings).</p>
+<p>You can search for food or recipe nutrient data, add food favorites, create a food diary, track diary nutrient data in Charts, and provides many customization features (in Settings).
+<br></br></p>
 <h2>Available on the iOS AppStore:</h2>
 <a href="https://apps.apple.com/us/app/ifoodsearch/id6467825358">
 	<img src="images/pics/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on App Store">
@@ -8,6 +9,7 @@
 <a href="https://www.apple.com/ca/ios/health/">
 	<img src="images/pics/Apple_Health_badge_US-UK_blk_sRGB.svg" alt="Works with Apple Health">
 </a>
+<br></br>
 <h1>Technologies Used</h1>
 <h2>Languages and Frameworks</h2>
 <ul>
@@ -34,9 +36,9 @@
 </ul>
 <h2>Other</h2>
 <ul>
-<li>Git Version Control</li>
+<li>Git Version Control
+<br></br></li>
 </ul>
-<p><br></br></p>
 <h1>iFoodSearch Animations</h1>
 <div style="display: inline-block">
 	<figure>
@@ -113,8 +115,7 @@
         XCTAssert(hkSampleTypes.isEmpty == false, &quot;hkSampleTypes IS EMPTY.&quot;)
     }
 </code></pre>
-<br>
-</br>
+<p><br></br></p>
 <h3>Validating image assets by comparing image bytes to expected bytes, in Assembly!</h3>
 <pre><code class="language-Assembly">_checkbyte:
     ldrh w7, [x9, #-2]!     // doing a 2-byte step decrement; start by subtracting 2-bytes from X9, to get to start of last byte-pair, then write back resultant address back into X9.
@@ -140,8 +141,7 @@
     ldp lr, fp, [sp], #16
     ret
 </code></pre>
-<br>
-</br>
+<p><br></br></p>
 <h3>A test for Pie Chart Views:</h3>
 <pre><code class="language-swift">func testPieChartView() {
         // Given:
@@ -169,8 +169,7 @@
         XCTAssert(chartValuesTotal == segmentsValuesTotal, &quot;Total of chartView values not same as 'segments' value total.&quot;)
     }
 </code></pre>
-<br>
-</br>
+<p><br></br></p>
 <h3>A test to confirm that chart bar heights are not negative:</h3>
 <pre><code class="language-swift">func testDrawGraphDataSegments_barHeightIsNotNegative() {
         // Given
@@ -219,19 +218,12 @@
         XCTAssert(minBarValue &gt;= 0, &quot;'barHeight' is not greater than or equal to zero.&quot;)
     }
 </code></pre>
-<br>
-</br>
+<p><br></br></p>
 <h3>Testing FatSecretClient network API calls, when searching recipe IDs:</h3>
-<pre><code class="language-swift">/// Test FatSecretClient network call for searching for recipe ID. Not using certificate pinning.
+<pre><code class="language-swift">/// Test FatSecretClient network call for searching for recipe ID.
     func testFatSecretClient_searchRecipeID() {
         // Given
         let fatSecretClient = FatSecretClient()
-
-#warning(&quot;NOTE: Comment out AppDelegate() code, as will cause conflict, when exiting method:&quot;)
-//        let appDelegate     = AppDelegate()
-//        _                   = appDelegate.checkImagePNGData()
-        _                   = FBSettingsVC() // Over-writes apikey/secret with correct keys, when calls imageArrayResults().
-        
         var myFspSingleRecipe: FSPSingleRecipe?
         let asyncSingleRecipeSearchExpectation = expectation(description: &quot;asyncSingleRecipeSearchExpectation&quot;)
         
@@ -257,10 +249,8 @@
         self.wait(for: [asyncSingleRecipeSearchExpectation], timeout: 10)
         XCTAssert(myFspSingleRecipe?.recipe_id == &quot;187769&quot;, &quot;FSP Food searched ID was not 187769.&quot;)
     }
-    ... ...
 </code></pre>
-<br>
-</br>
+<p><br></br></p>
 <h1>Sample Screen Shots</h1>
 <table>
 <tr>
@@ -292,46 +282,46 @@
 	</td>
 </tr>
 </table>
-<p><br></br></p>
-<h3>This App required a lot of passion to keep it going… I’ve implemented the following:</h3>
-<h4>Structure</h4>
+<br></br>
+<h2>This App required a lot of passion to keep it going… I’ve implemented the following:</h2>
+<h4>Code Structure</h4>
 <ul>
 <li>Model-View-Controller Design Pattern</li>
 <li>Delegates and Protocols</li>
-<li>Core Data models using generics</li>
+<li>Core Data Models using Generics</li>
 <li>Custom-built Charts, using Core Graphics
 <br></br></li>
 </ul>
 <h4>Testing/Error Handling</h4>
 <ul>
 <li>Unit Testing</li>
-<li>Empty states</li>
+<li>Empty States</li>
 <li>Random Generation of Sample Test Data</li>
-<li>Text input validation
+<li>Text Input Validation
 <br></br></li>
 </ul>
 <h4>Security</h4>
 <ul>
-<li>Image asset validation, in Assembly</li>
+<li>Image Asset Validation, in Assembly</li>
 <li>Integrated SecuritySuite and OpenSSL APIs</li>
 <li>UserDefaults in Keychain</li>
 <li>Certificate Pinning implementation</li>
-<li>StoreKit receipt validation</li>
+<li>StoreKit Receipt Validation</li>
 <li>Username/Password validation
 <br></br></li>
 </ul>
 <h4>Customization</h4>
 <ul>
 <li>Light and Dark Mode Selections</li>
-<li>Theme color selections</li>
-<li>Nutrient absolute vs percent values</li>
-<li>Screen start up options</li>
-<li>Text highlighting options
+<li>Theme Color Selections</li>
+<li>Custom Threshold Values</li>
+<li>Screen Startup Options</li>
+<li>Text Highlighting Options
 <br></br></li>
 </ul>
 <h4>Project Organization</h4>
 <ul>
-<li>Code documentation, DocC</li>
+<li>Code Documentation (DocC)</li>
 <li>Project group folder organization</li>
 <li>Privacy Manifest</li>
 <li>On-Demand Resources
@@ -342,5 +332,8 @@
 <ul>
 <li>Implement Core Data’s CloudKit syncing, to sync with my macOS App iFoodTrack</li>
 <li>InterOp with SwiftUI, to implement SwiftCharts for newer iOS versions</li>
-<li>InterOp with SwiftUI, to implement Apple’s StoreKitView API, for newer iOS versions</li>
+<li>InterOp with SwiftUI, to implement Apple’s StoreKitView API, for newer iOS versions
+<br></br></li>
 </ul>
+<h1>FeedBack</h1>
+<p class="contact-message">If you have any feedback or suggestions you can reach out via <a class="btn" href="mailto:fbotlogic@fbotlogicsolutions.com?subject=Blue Marble Weather Support">Email</a>.</p>
