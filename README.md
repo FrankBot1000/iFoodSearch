@@ -40,6 +40,15 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 
 
 # iFoodSearch Animations
+[//]: # "NB: For README.md Github videos, Use GitHub asset urls eg. https://github.com/user-attachments/assets/xxxxxPlaceholderFileNameHerexxxxx as video source (derived first by dragging-dropping a video within the README.md file to get the url)."
+<!-- 
+<video width="500" src="https://github.com/user-attachments/assets/xxxxxPlaceholderFileNameHerexxxxx">
+</video>
+<video width="500" src="https://github.com/user-attachments/assets/xxxxxPlaceholderFileNameHerexxxxx">
+</video>
+ -->
+
+[//]: # "For webpage, use embedded below figure instead."
 <div style="display: inline-block">
 	<figure>
 		<div style="display: block; position: absolute; z-index: 2; pointer-events: none;">
@@ -48,7 +57,7 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 		<div style="display: inline-block; position: relative; z-index: 1;">
 			<video style="margin: 12px; width: 186px; border-radius: 15px;" class="iphonevideo" controls poster="images/pics/Food_Info_Details_Potatoes_ABS_copyright_FBotLogic_Solutions_Inc.png" muted preload="auto">
 				<source src="videos/01a iFoodSearch potato food info.mp4" type="video/mp4">
-				<!-- For non-HTML5 browsers: -->
+				<!- - For non-HTML5 browsers: - ->
 				Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a> 
 				to download the Firefox browser for your operating system.
 			</video>
@@ -64,7 +73,7 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 		<div style="display: inline-block; position: relative; z-index: 1;">
 			<video style="margin: 12px; width: 186px; border-radius: 15px;" class="iphonevideo" controls poster="images/pics/iPhone15Pro_Food_Time_Chart_copyright_FBotLogic_Solutions_Inc.png" muted preload="auto">
 				<source src="videos/01b iFoodSearch diary chart info.mp4" type="video/mp4">
-				<!-- For non-HTML5 browsers: -->
+				<!- - For non-HTML5 browsers: - ->
 				Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a> 
 				to download the Firefox browser for your operating system.
 			</video>
