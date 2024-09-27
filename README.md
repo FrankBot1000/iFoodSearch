@@ -47,6 +47,7 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 </video>
 
 [//]: # "For webpage, use embedded below figure instead."
+<!-- 
 <div style="display: inline-block">
 	<figure>
 		<div style="display: block; position: absolute; z-index: 2; pointer-events: none;">
@@ -79,6 +80,7 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 	</figure>
 </div>
 <br></br>
+ -->
 
 
 # A Full Featured iOS Nutrient Tracker App...
