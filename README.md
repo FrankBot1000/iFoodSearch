@@ -17,7 +17,7 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 ## Languages and Frameworks						
 * Swift Programming language
 * Assembly Language
-* Apple's AppKit framework
+* Apple's UIKit framework
 
 ## Apple Technologies
 * Core Data
@@ -331,8 +331,9 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 <br></br>
 
 #### Security
+* Runtime Check for Debugger, in Assembly
 * Image Asset Validation, in Assembly
-* Integrated SecuritySuite and OpenSSL APIs
+* iOS SecuritySuite and OpenSSL APIs
 * UserDefaults in Keychain
 * Certificate Pinning implementation
 * StoreKit Receipt Validation
