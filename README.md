@@ -17,7 +17,8 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 ## Languages and Frameworks						
 * Swift Programming language
 * Assembly Language
-* Apple's UIKit framework
+* UIKit
+* SwiftUI (SubscriptionStoreView)
 
 ## Apple Technologies
 * Core Data
@@ -321,6 +322,7 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 * Delegates and Protocols
 * Core Data Models using Generics
 * Custom-built Charts, using Core Graphics
+* InterOp with SwiftUI to integrate SubscriptionStoreView
 <br></br>
 
 #### Testing/Error Handling
@@ -359,7 +361,6 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 ### And yet, there's always more...
 * Implement Core Data's CloudKit syncing, to sync with my macOS App iFoodTrack
 * InterOp with SwiftUI, to implement SwiftCharts for newer iOS versions
-* InterOp with SwiftUI, to implement Apple's StoreKitView API, for newer iOS versions
 <br></br>
 
 
