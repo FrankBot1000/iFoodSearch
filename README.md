@@ -1,7 +1,7 @@
 # iFoodSearch
 iFoodSearch is a feature rich iOS App built using Swift and UIKit. iFoodSearch is organized into five tab view screens: Search, Favorites, Diary, Charts and Settings. 
 
-You can search for food or recipe nutrient data, add food favorites, create a food diary, track diary nutrient data in Charts, and provides many customization features (in Settings).
+You can search for food or recipe nutrient data, add food favorites, create meals from favorites, build a food diary, track diary nutrient data in Charts, and provides many customization features (in Settings).
 <br></br>
 
 <h2>Available on the iOS AppStore:</h2>
@@ -56,7 +56,7 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 		</div>
 		<div style="display: inline-block; position: relative; z-index: 1;">
 			<video style="margin: 12px; width: 186px; border-radius: 15px;" class="iphonevideo" controls poster="images/pics/Food_Info_Details_Potatoes_ABS_copyright_FBotLogic_Solutions_Inc.png" muted preload="auto">
-				<source src="videos/01a iFoodSearch potato food info.mp4" type="video/mp4">
+				<source src="videos/01aA iFoodSearch Search v4.5 compressed.mp4" type="video/mp4">
 				<!- - For non-HTML5 browsers: - ->
 				Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a> 
 				to download the Firefox browser for your operating system.
@@ -72,7 +72,7 @@ You can search for food or recipe nutrient data, add food favorites, create a fo
 		</div>
 		<div style="display: inline-block; position: relative; z-index: 1;">
 			<video style="margin: 12px; width: 186px; border-radius: 15px;" class="iphonevideo" controls poster="images/pics/iPhone15Pro_Food_Time_Chart_copyright_FBotLogic_Solutions_Inc.png" muted preload="auto">
-				<source src="videos/01b iFoodSearch diary chart info.mp4" type="video/mp4">
+				<source src="videos/01bA iFoodSearch Charts v4.5 compressed.mp4" type="video/mp4">
 				<!- - For non-HTML5 browsers: - ->
 				Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a> 
 				to download the Firefox browser for your operating system.
