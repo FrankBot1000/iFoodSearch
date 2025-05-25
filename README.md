@@ -43,11 +43,13 @@ You can search for food or recipe nutrient data, add food favorites, create meal
 # iFoodSearch Animations
 [//]: # "NB: For README.md Github videos, Use GitHub asset urls eg. https://github.com/user-attachments/assets/xxxxxPlaceholderFileNameHerexxxxx as video source (derived first by dragging-dropping a video within the README.md file to get the url)."
 </video>
-<video width="500" src="https://github.com/user-attachments/assets/69554bbb-2996-4298-a1c6-80f0008f779f">
+<video width="500" src="https://github.com/user-attachments/assets/2846d89d-d98c-472f-b6d0-94d2bfdc3602">
 </video>
 </video>
-<video width="500" src="https://github.com/user-attachments/assets/28a95246-0c0e-4c3f-81ed-b8a9236aef04">
+<video width="500" src="https://github.com/user-attachments/assets/f98e047a-96fc-477e-9f71-fc1821789685">
 </video>
+
+
 
 
 [//]: # "For webpage, use embedded below figure instead."
