@@ -347,12 +347,13 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 * Username/Password validation
 <br></br>
 
-#### Customization
-* Light and Dark Mode Selections
-* Theme Color Selections
+#### Customization & Accessibility
 * Custom Threshold Values
 * Screen Startup Options
+* Light and Dark Mode Selections
+* Theme Color Selections
 * Text Highlighting Options
+* VoiceOver Accessibility (in buttons & charts)
 <br></br>
 
 #### Project Organization
