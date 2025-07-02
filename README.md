@@ -353,7 +353,7 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 * Light and Dark Mode Selections
 * Theme Color Selections
 * Text Highlighting Options
-* VoiceOver Accessibility (in buttons & charts)
+* VoiceOver Accessibility (buttons & charts)
 <br></br>
 
 #### Project Organization
