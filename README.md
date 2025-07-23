@@ -309,7 +309,7 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 	<img src="images/screenshots/13 Custom Meal Chicken orange color ABS.png" alt="iFoodSearch Chicken Meal Screen" width="180"/>
 	</td>
 	<td>
-	<img src="images/screenshots/12a Food Time Chart 14d Protein Progress brown.png" alt="iFoodSearch Diary Time Chart" width="180"/>
+	<img src="images/screenshots/12a Food Time Chart 14d Protein Progress orange.png" alt="iFoodSearch Diary Time Chart" width="180"/>
 	</td>
 	<td>
 	<img src="images/screenshots/08 Recipe Details Pumpkin Muffins orange color.png" alt="iFoodSearch Recipe Details" width="180"/>
