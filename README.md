@@ -49,9 +49,6 @@ You can search for food or recipe nutrient data, add food favorites, create meal
 <video width="500" src="https://github.com/user-attachments/assets/1e632123-3088-448c-b6fc-4f50754d0b04">
 </video>
 
-
-
-
 [//]: # "For webpage, use embedded below figure instead."
 <!-- 
 <div style="display: inline-block">
