@@ -52,35 +52,35 @@ You can search for food or recipe nutrient data, add food favorites, create meal
 [//]: # "For webpage, use embedded below figure instead."
 <!-- 
 <div style="display: inline-block">
-	<figure>
-		<div style="display: block; position: absolute; z-index: 2; pointer-events: none;">
-			<img style="width: 210px;" src="images/pics/iPhone 14 Pro - Space Black - Portrait.png" alt="iPhone Pic1" />
-		</div>
-		<div style="display: inline-block; position: relative; z-index: 1;">
-			<video style="margin: 12px; width: 186px; border-radius: 15px;" class="iphonevideo" controls poster="images/pics/Food Info Potato ABS orange color_072225_copyright_FBotLogic_Solutions_Inc.png" muted preload="auto">
-				<source src="videos/iFoodSearch_Search_iPhone16Pro_compressed 072225.mp4" type="video/mp4">
-				<!- - For non-HTML5 browsers: - ->
-				Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a> 
-				to download the Firefox browser for your operating system.
-			</video>
-		</div>
-	</figure>
+    <figure>
+    	<div style="display: block; position: absolute; z-index: 2; pointer-events: none;">
+    		<img style="width: 210px;" src="images/pics/iPhone 14 Pro - Space Black - Portrait.png" alt="iPhone Pic1" />
+    	</div>
+    	<div style="display: inline-block; position: relative; z-index: 1;">
+    		<video style="margin: 12px; width: 186px; border-radius: 15px;" class="iphonevideo" controls poster="images/screenshots/03-6a iOS26 Food Info Potato ABS orange.png" muted preload="auto">
+    			<source src="videos/Search Foods iPhone6p5Inch compressed iOS26 092925.mp4" type="video/mp4">
+    			<!- - For non-HTML5 browsers: - ->
+    				Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a>
+    				to download the Firefox browser for your operating system.
+    		</video>
+    	</div>
+    </figure>
 </div>
 
 <div style="display: inline-block">
-	<figure>
-		<div style="display: block; position: absolute; z-index: 2; pointer-events: none;">
-			<img style="width: 210px;" src="images/pics/iPhone 14 Pro - Space Black - Portrait.png" alt="iPhone Pic1" />
-		</div>
-		<div style="display: inline-block; position: relative; z-index: 1;">
-			<video style="margin: 12px; width: 186px; border-radius: 15px;" class="iphonevideo" controls poster="images/pics/Food Time Chart 14d Protein Progress orange_072225_copyright_FBotLogic_Solutions_Inc.png" muted preload="auto">
-				<source src="videos/iFoodSearch_Diary_iPhone16Pro_compressed 072225.mp4" type="video/mp4">
-				<!- - For non-HTML5 browsers: - ->
-				Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a> 
-				to download the Firefox browser for your operating system.
-			</video>
-		</div>
-	</figure>
+    <figure>
+    	<div style="display: block; position: absolute; z-index: 2; pointer-events: none;">
+    		<img style="width: 210px;" src="images/pics/iPhone 14 Pro - Space Black - Portrait.png" alt="iPhone Pic1" />
+    	</div>
+    	<div style="display: inline-block; position: relative; z-index: 1;">
+    		<video style="margin: 12px; width: 186px; border-radius: 15px;" class="iphonevideo" controls poster="images/screenshots/12a iOS26 Food Time Chart 14d Protein Progress orange.png" muted preload="auto">
+    			<source src="videos/Food Diary iPhone6p5Inch compressed iOS26 092925.mp4" type="video/mp4">
+    			<!- - For non-HTML5 browsers: - ->
+    				Your browser doesn't support the video tag. Click <a href=http://www.firefox.com>here</a>
+    				to download the Firefox browser for your operating system.
+    		</video>
+    	</div>
+    </figure>
 </div>
 <br></br>
  -->
@@ -289,30 +289,30 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 <table>
 <tr>
 	<td>
-	<img src="images/screenshots/01-1a Search Main Screen Foods no Trial Info ver4 orange.png" alt="iFoodSearch search screen" width="180"/>
+	<img src="images/screenshots/01-1b iOS26 Search Main Screen Foods Trial Info v4.png" alt="iFoodSearch search screen" width="180"/>
 	</td>
 	<td>
-	<img src="images/screenshots/01-1c Search Main Screen Foods Flipped BackView PB yellow.png" alt="iFoodSearch search screen showing flipped image" width="180"/>
+	<img src="images/screenshots/01-1c iOS26 Search Main Screen Foods Flipped BackView PB.png" alt="iFoodSearch search screen showing flipped image" width="180"/>
 	</td>
 	<td>
-	<img src="images/screenshots/03-6a Food Info Potato ABS orange color.png" alt="iFoodSearch Potato Details" width="180"/>
+	<img src="images/screenshots/03-6a iOS26 Food Info Potato ABS orange.png" alt="iFoodSearch Potato Details" width="180"/>
 	</td>
 	<td>
-	<img src="images/screenshots/05 Favorites orange color.png" alt="iFoodSearch Favorites Screen" width="180"/>
+	<img src="images/screenshots/05 iOS26 Favorites orange color.png" alt="iFoodSearch Favorites Screen" width="180"/>
 	</td>
 </tr>
 <tr>
 	<td>
-	<img src="images/screenshots/13 Custom Meal Chicken orange color ABS.png" alt="iFoodSearch Chicken Meal Screen" width="180"/>
+	<img src="images/screenshots/13b iOS26 Custom Meal Chicken orange color ABS.png" alt="iFoodSearch Chicken Meal Screen" width="180"/>
 	</td>
 	<td>
-	<img src="images/screenshots/12a Food Time Chart 14d Protein Progress orange.png" alt="iFoodSearch Diary Time Chart" width="180"/>
+	<img src="images/screenshots/12a iOS26 Food Time Chart 14d Protein Progress orange.png" alt="iFoodSearch Diary Time Chart" width="180"/>
 	</td>
 	<td>
-	<img src="images/screenshots/08 Recipe Details Pumpkin Muffins orange color.png" alt="iFoodSearch Recipe Details" width="180"/>
+	<img src="images/screenshots/08a iOS26 Recipe Favorites InfoVC Pumpkin muffin.png" alt="iFoodSearch Recipe Details" width="180"/>
 	</td>
 	<td>
-	<img src="images/screenshots/14 Settings Bottom orange.png" alt="iFoodSearch Settings Bottom Part" width="180"/>
+	<img src="images/screenshots/14 iOS26 Settings Bottom orange.png" alt="iFoodSearch Settings Bottom Part" width="180"/>
 	</td>
 </tr>
 </table>
