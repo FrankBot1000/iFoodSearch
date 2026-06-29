@@ -92,7 +92,7 @@ iFoodSearch started as a simple food and recipe search App for finding nutrient 
 
 Yet, nothing is simple, if motivated enough... iFoodSearch now also calculates food diary totals, syncs with Apple's Health App, and shows nutrient details in multiple chart types. And, it's highly customizable.
 
-There have been many "show-stoppers" (i.e. challenges) if not for stubborn persistence. These included integrating HealthKit, adding security features like image validation (I wrote it in Assembly!), implementing Core Data models using Generics, building Custom Charts (for older iOS compatibility), implementing Certificate Pinning, and everyone's pain point, implementing StoreKit (with receipt validation). 
+There have been many "show-stoppers" (i.e. challenges) if not for stubborn persistence. These included integrating HealthKit, adding security features like image validation (written in Assembly!), implementing Core Data models using Generics, building Custom Charts (for older iOS compatibility), implementing Certificate Pinning, and everyone's pain point, implementing StoreKit (with receipt validation). 
 <br></br>
 
 
@@ -154,7 +154,7 @@ _checkbyte:
     
     ldrb w6, [x2, #-4]!      // doing a 4-byte step decrement for Arg1 (recall: Arg1 address points to a 32 item array of 32bit (4-byte) values
 //    and x6, x6, #0xFF     // no longer necessary, ...since only loaded lowest byte into 'w6'
-    eor w6, w6, w7          // test equivalence, check if x7 = x6 (the relevant "image byte",
+    eor w6, w6, w7          // test equivalence, check if x7 == x6 (the relevant "image byte",
                             // i.e., if bits are the same, will be zero'd ('teq' instruction checks only a single bit)
     cmp w6, #0              // ...clang compiler doesn't accept 's' suffix for 'eor' for saving flags, so include "cmp x6, #0"
     b.eq _continue          // branch if not equal
@@ -363,7 +363,7 @@ func testDrawGraphDataSegments_barHeightIsNotNegative() {
 
 # Future Considerations
 ### And yet, there's always more...
-* Implement Core Data's CloudKit syncing, to sync with my macOS App iFoodTrack
+* Implement Core Data's CloudKit syncing, to sync with the macOS App iFoodTrack
 * InterOp with SwiftUI, to implement SwiftCharts for newer iOS versions
 <br></br>
 
