@@ -81,7 +81,7 @@
 <h1>A Full Featured iOS Nutrient Tracker App…</h1>
 <p>iFoodSearch started as a simple food and recipe search App for finding nutrient information. I extended the <a href="https://github.com/NicholasBellucci/FatSecretSwift">FatSecret Swift API</a> by Nicolas Bellucci, that only searched for food-specific data, to include recipe searches. You can find it <a href="https://github.com/FrankBot1000/FatSecretSwift">here</a>.</p>
 <p>Yet, nothing is simple, if motivated enough… iFoodSearch now also calculates food diary totals, syncs with Apple’s Health App, and shows nutrient details in multiple chart types. And, it’s highly customizable.</p>
-<p>There have been many “show-stoppers” (i.e. challenges) if not for stubborn persistence. These included integrating HealthKit, adding security features like image validation (I wrote it in Assembly!), implementing Core Data models using Generics, building Custom Charts (for older iOS compatibility), implementing Certificate Pinning, and everyone’s pain point, implementing StoreKit (with receipt validation).
+<p>There have been many “show-stoppers” (i.e. challenges) if not for stubborn persistence. These included integrating HealthKit, adding security features like image validation (written in Assembly!), implementing Core Data models using Generics, building Custom Charts (for older iOS compatibility), implementing Certificate Pinning, and everyone’s pain point, implementing StoreKit (with receipt validation).
 <br></br></p>
 <h2>Below are Some Code Examples:</h2>
 <h3>Testing HealthKit Sample Types:</h3>
@@ -137,7 +137,7 @@
     
     ldrb w6, [x2, #-4]!      // doing a 4-byte step decrement for Arg1 (recall: Arg1 address points to a 32 item array of 32bit (4-byte) values
 //    and x6, x6, #0xFF     // no longer necessary, ...since only loaded lowest byte into 'w6'
-    eor w6, w6, w7          // test equivalence, check if x7 = x6 (the relevant &quot;image byte&quot;,
+    eor w6, w6, w7          // test equivalence, check if x7 == x6 (the relevant &quot;image byte&quot;,
                             // i.e., if bits are the same, will be zero'd ('teq' instruction checks only a single bit)
     cmp w6, #0              // ...clang compiler doesn't accept 's' suffix for 'eor' for saving flags, so include &quot;cmp x6, #0&quot;
     b.eq _continue          // branch if not equal
@@ -340,7 +340,7 @@
 <h1>Future Considerations</h1>
 <h3>And yet, there’s always more…</h3>
 <ul>
-<li>Implement Core Data’s CloudKit syncing, to sync with my macOS App iFoodTrack</li>
+<li>Implement Core Data’s CloudKit syncing, to sync with the macOS App iFoodTrack</li>
 <li>InterOp with SwiftUI, to implement SwiftCharts for newer iOS versions</li>
 </ul>
 <h1>FeedBack</h1>
